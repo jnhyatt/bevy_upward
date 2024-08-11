@@ -1,0 +1,18 @@
+[package]
+name = "bevy_upward"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy_app = "0.14"
+bevy_ecs = "0.14"
+bevy_math = "0.14"
+bevy_time = "0.14"
+bevy_transform = "0.14"
+
+[dev-dependencies]
+bevy = "0.14"
+leafwing-input-manager = "0.15"
+
+[[example]]
+name = "planets"
